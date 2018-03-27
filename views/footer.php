@@ -1,3 +1,0 @@
-<footer>
-    aqui footer!
-</footer>
