@@ -26,72 +26,72 @@ $(document).ready(function(){
 });
 </script>
 <body background= img/imgBackground.jpg>
-    <?php include 'header.php' ?>
+  <?php include 'header.php' ?>
   <main class="container" >
     <h1>Vols millorar la teva estància? </h1>
-      <hr class="my-4">
+    <hr class="my-4">
 
-      <h2>Tenim ofertes per tu!</h2>
-      <form method="post" action="ask.php?c=upgrade&a=send">
-        <div class="col-md-12 card-header" id="divToggle0">
-          Millores
-        </div>
-          <div class="col-md-12" id="obriDiv0">
-            <label class="col-md-3 selectOffers">
-              Jacuzzi
-              <input type="checkbox" name="" value="">
-              <img src="img/img2.jpg" style="max-height: 100px" alt="">
-            </label><!--
-            --><label class="col-md-3 selectOffers">
-              Doble llit
-              <input type="checkbox" name="" value="">
-              <img src="img/img2.jpg" style="max-height: 100px" alt="">
-            </label><!--
-            --><label class="col-md-3 selectOffers">
-              Doble llit
-              <input type="checkbox" name="" value="">
-              <img src="img/img2.jpg" style="max-height: 100px" alt="">
-            </label><!--
-            --><label class="col-md-3 selectOffers">
-              Doble llit
-              <input type="checkbox" name="" value="">
-              <img src="img/img2.jpg" style="max-height: 100px" alt="">
-            </label>
-              <br>
-              <div class="d-inline-block col-md-10"></div><button type="button" class="btn btn-secondary botoCompra col-md-2 d-inline-block" name="button">Seleccionar</button>
+    <h2>Tenim ofertes per tu!</h2>
+    <form method="post" action="ask.php?c=upgrade&a=send">
+      <div class="col-md-12 card-header" id="divToggle0">
+        Millores
+      </div>
+      <div class="col-md-12" id="obriDiv0">
+        <label class="col-md-3 selectOffers">
+          Jacuzzi
+          <input type="checkbox" name="" value="">
+          <img src="img/img2.jpg" style="max-height: 100px" alt="">
+        </label><!--
+        --><label class="col-md-3 selectOffers">
+        Doble llit
+        <input type="checkbox" name="" value="">
+        <img src="img/img2.jpg" style="max-height: 100px" alt="">
+      </label><!--
+      --><label class="col-md-3 selectOffers">
+      Doble llit
+      <input type="checkbox" name="" value="">
+      <img src="img/img2.jpg" style="max-height: 100px" alt="">
+    </label><!--
+    --><label class="col-md-3 selectOffers">
+    Doble llit
+    <input type="checkbox" name="" value="">
+    <img src="img/img2.jpg" style="max-height: 100px" alt="">
+  </label>
+  <br>
+  <div class="d-inline-block col-md-10"></div><button type="button" class="btn btn-secondary botoCompra col-md-2 d-inline-block" name="button">Seleccionar</button>
 
-          </div>
-        <div class="col-md-12 card-header" id="divToggle1">
-          Excursions
-        </div>
-          <div class="col-md-12" id="obriDiv1">
-            <label class="col-md-3 selectOffers">
-              Jacuzzi
-              <input type="checkbox" name="" value="">
-              <img src="img/img2.jpg" style="max-height: 100px" alt="">
-            </label><!--
-            --><label class="col-md-3 selectOffers">
-              Doble llit
-              <input type="checkbox" name="" value="">
-              <img src="img/img2.jpg" style="max-height: 100px" alt="">
-            </label><!--
-            --><label class="col-md-3 selectOffers">
-              Doble llit
-              <input type="checkbox" name="" value="">
-              <img src="img/img2.jpg" style="max-height: 100px" alt="">
-            </label><!--
-            --><label class="col-md-3 selectOffers">
-              Doble llit
-              <input type="checkbox" name="" value="">
-              <img src="img/img2.jpg" style="max-height: 100px" alt="">
-            </label>
-              <br>
-              <div class="d-inline-block col-md-10"></div><button type="button" class="btn btn-secondary botoCompra col-md-2 d-inline-block" name="button">Seleccionar</button>
+</div>
+<div class="col-md-12 card-header" id="divToggle1">
+  Excursions
+</div>
+<div class="col-md-12" id="obriDiv1">
+  <label class="col-md-3 selectOffers">
+    Jacuzzi
+    <input type="checkbox" name="" value="">
+    <img src="img/img2.jpg" style="max-height: 100px" alt="">
+  </label><!--
+  --><label class="col-md-3 selectOffers">
+  Doble llit
+  <input type="checkbox" name="" value="">
+  <img src="img/img2.jpg" style="max-height: 100px" alt="">
+</label><!--
+--><label class="col-md-3 selectOffers">
+Doble llit
+<input type="checkbox" name="" value="">
+<img src="img/img2.jpg" style="max-height: 100px" alt="">
+</label><!--
+--><label class="col-md-3 selectOffers">
+Doble llit
+<input type="checkbox" name="" value="">
+<img src="img/img2.jpg" style="max-height: 100px" alt="">
+</label>
+<br>
+<div class="d-inline-block col-md-10"></div><button type="button" class="btn btn-secondary botoCompra col-md-2 d-inline-block" name="button">Seleccionar</button>
 
-        </div>
+</div>
 
-        <button type="submit" class="btn btn-outline-secondary form-control" >Comprar</button>
+<button type="submit" class="btn btn-outline-secondary form-control" >Comprar</button>
 </form>
-  </main>
-  <?php include 'footer.php' ?>
+</main>
+<?php include 'footer.php' ?>
 </html>
