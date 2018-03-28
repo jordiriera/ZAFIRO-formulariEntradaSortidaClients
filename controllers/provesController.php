@@ -9,6 +9,7 @@ class provesController
     require 'models/userModel.php';
     require 'models/buyModel.php';
     require 'models/decryptModel.php';
+    require 'models/encryptModel.php';
 
 
   }
@@ -16,8 +17,16 @@ class provesController
 
   public function index()
   {
+
+    //sandbox
+
+    $encrypt = encryptModel::encrypt($_GET['id1'], $_GET['id2']);
+
+
+    //sandbox
     // Agafam les dades encriptades desde la URL
-    $decrypt = decryptModel::decrypt($_GET['id']);
+    //$decrypt = decryptModel::decrypt($_GET['id']);
+    $decrypt = decryptModel::decrypt($encrypt);
 
     //  Explode() es una mètode per fer substring
     $important = explode("/", $decrypt);
